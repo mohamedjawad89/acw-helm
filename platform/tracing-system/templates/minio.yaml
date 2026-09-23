@@ -48,7 +48,7 @@ spec:
              mountPath: "/storage"
      containers:
        - name: minio
-         image: minio/minio
+         image: quay.io/minio/minio
          args:
            - server
            - /storage
